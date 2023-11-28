@@ -123,6 +123,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &34597354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 34597355}
+  - component: {fileID: 34597356}
+  m_Layer: 0
+  m_Name: PlayerCards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &34597355
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34597354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 415363463}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &34597356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34597354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f606ff1211fd3424db8d1f91b880023e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 2171872606862296890, guid: a8f16d86150dca94cbc7813ee05a2fec, type: 3}
+  playerCards: []
+  aceOfSpadesSprite: {fileID: 21300000, guid: 6c3b5ad4520554a41a7a362a17c63a35, type: 3}
+  nineOfSpadesSprite: {fileID: 21300000, guid: b89535169b3fc394f90ff4778c969f51, type: 3}
+  tenOfSpadesSprite: {fileID: 21300000, guid: 8b80807e28de2ae4d91c10ae6dc5c2cd, type: 3}
+  jackOfSpadesSprite: {fileID: 21300000, guid: 0cb653f0b6c3ee748a7a3247b5b23a60, type: 3}
+  queenOfSpadesSprite: {fileID: 21300000, guid: ac3b4ff81a494714eaae8381e61ba7a5, type: 3}
+  kingOfSpadesSprite: {fileID: 21300000, guid: 486ec0f050cd55749930a98878738cc4, type: 3}
+  aceOfClubsSprite: {fileID: 21300000, guid: 5b1680514d8b76943bb4c8acf560288e, type: 3}
+  nineOfClubsSprite: {fileID: 21300000, guid: 65302fc832cc7694ca038f46a53f0924, type: 3}
+  tenOfClubsSprite: {fileID: 21300000, guid: 437b669bdfa72794db8b35760dcc77f4, type: 3}
+  jackOfClubsSprite: {fileID: 21300000, guid: 280dce139cb32e348ab27e7c4fce8ab9, type: 3}
+  queenOfClubsSprite: {fileID: 21300000, guid: 1ccfd49b69e5165408731b53ca7baa63, type: 3}
+  kingOfClubsSprite: {fileID: 21300000, guid: ec416be296cbac248bbd4fe56e55397d, type: 3}
+  aceOfHeartsSprite: {fileID: 21300000, guid: 7e301c32db6a68641b140ae2c129ace0, type: 3}
+  nineOfHeartsSprite: {fileID: 21300000, guid: db20f5f4bdce47d47927eff25a5f66c8, type: 3}
+  tenOfHeartsSprite: {fileID: 21300000, guid: 81283b41d4f6c3146ad7f9b2b4064e34, type: 3}
+  jackOfHeartsSprite: {fileID: 21300000, guid: 36cd25389e8daf448ab5e56a0f2688a2, type: 3}
+  queenOfHeartsSprite: {fileID: 21300000, guid: 48258bc320be30448b473fe3a9bf3f1d, type: 3}
+  kingOfHeartsSprite: {fileID: 21300000, guid: dcbb90c93fcee304f9e98cc9f230bcf0, type: 3}
+  aceOfDiamondsSprite: {fileID: 21300000, guid: e988c76dcf9dc044ea2375a7f618bf23, type: 3}
+  nineOfDiamondsSprite: {fileID: 21300000, guid: 3a188067b7cec63499099d6e8de85cbb, type: 3}
+  tenOfDiamondsSprite: {fileID: 21300000, guid: 1da969adf5a9bce418d69bf85bf97440, type: 3}
+  jackOfDiamondsSprite: {fileID: 21300000, guid: 17a89db4b30c44948a9e296574d95e0e, type: 3}
+  queenOfDiamondsSprite: {fileID: 21300000, guid: b25234500869ab84c9ecf499b7bb5da2, type: 3}
+  kingOfDiamondsSprite: {fileID: 21300000, guid: 3fa3c2661d2ca814db81ee98ec4e8dfb, type: 3}
 --- !u!1 &215677330
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +483,7 @@ RectTransform:
   m_Children:
   - {fileID: 215677331}
   - {fileID: 2075274190}
+  - {fileID: 34597355}
   m_Father: {fileID: 1998837904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
